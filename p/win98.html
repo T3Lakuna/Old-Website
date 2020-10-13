@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Windows 98 SE</title>
+	<meta name='description' content='Windows 98 SE setup guide.' />
+	<meta name='author' content='Travis Martin' />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+	<meta charset='utf-8' />
+</head>
+<body>
+	<h1>Windows 98 SE Setup Guide</h1>
+	<p>This website's index can be found <a href='/index.html'>here</a>.</p>
+	<p>For non-ancient systems: download a copy of Windows 98 SE from <a href='https://winworldpc.com/download/417d71c2-ae18-c39a-11c3-a4e284a2c3a5'>WinWorld</a>.</p>
+	<hr/>
+
+	<h1>Product Key: RW9MG-QR4G3-2WRR9-TG7BH-33GXB</h1>
+	<hr/>
+
+	<h1>Downloads</h1>
+	<p>Native USB disk driver for Windows 98SE ver.3.6 (required to use USB): <a href='/s/exe/nusb36e.exe'>nusb36e.exe</a>.</p>
+	<hr/>
+
+	<h1>VirtualBox Setup Guide</h1>
+	<ol>
+		<li>Download and install VirtualBox (www.virtualbox.org)</li>
+		<li>In VirtualBox, click "new."</li>
+		<li>Set the virtual machine type to "Microsoft Windows" and the version to "Windows 98."</li>
+		<li>Click through the rest of the prompts. The default settings are fine.</li>
+		<li>Open "settings" -> "storage."</li>
+		<li>In the list of storage devices, select the disk icon labelled "empty" under "controller: IDE."</li>
+		<li>Under "attributes," click the disk icon to open a dropdown menu and select "choose a disk file."</li>
+		<li>Navigate to your Windows 98 SE .iso file.</li>
+		<li>Click "OK."</li>
+		<li>Start the virtual machine. When prompted to "select start-up disk," choose your .iso file.</li>
+		<li>Windows can be set up normally from here. The Windows product key can be found in KEY.txt.</li>
+	</ol>
+	<p>After Windows 98 SE is installed on your virtual machine, you may remove the .iso file from the machine using steps 5-9 (albeit without selecting the .iso file).</p>
+	<hr/>
+
+	<h1>Internet Access Setup Guide</h1>
+	<ol>
+		<li>From the desktop, open "start" -> "programs" -> "accessories" -> "internet tools" -> "internet connection wizard"</li>
+		<li>Select "I want to set up my internet connection manually, or I want to connect through a local area network (LAN)."</li>
+		<li>Select "I connect through a local area network (LAN)."</li>
+		<li>Select "automatic discovery of proxy server (recommended)" (selected by default).</li>
+		<li>Do not set up an internet mail account.</li>
+		<li>Click through the rest of the prompts.</li>
+	</ol>
+	<p>Note that you will only be able to connect to sites that do not enforce HTTPS. Very few modern sites will work.</p>
+	<hr/>
+</body>
+
+</html>
